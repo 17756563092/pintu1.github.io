@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.puzzle-piece {
+    width: 100px;
+    height: 100px;
+    background-size: 300px 300px;
+    cursor: pointer;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.puzzle-piece {
+    width: 100px;
+    height: 100px;
+    background-image: url('images/puzzle-image.jpg'); /* 引用 images 文件夹中的图片 */
+    background-size: 300px 300px;
+    cursor: pointer;
+}
+
